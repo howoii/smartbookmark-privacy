@@ -1,0 +1,161 @@
+/* 基础样式 */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.privacy-content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 标题样式 */
+h1 {
+    font-size: 2.2em;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #2196f3;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #424242;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* 段落和列表样式 */
+p {
+    margin-bottom: 16px;
+    color: #424242;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #424242;
+}
+
+/* 强调文本 */
+strong {
+    color: #1a1a1a;
+}
+
+/* 链接样式 */
+a {
+    color: #2196f3;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #1976d2;
+    text-decoration: underline;
+}
+
+/* 生效日期样式 */
+.effective-date {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* 介绍段落样式 */
+.intro {
+    font-size: 1.1em;
+    color: #424242;
+    margin: 30px 0;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #2196f3;
+}
+
+/* 分节样式 */
+section {
+    margin: 40px 0;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 15px;
+    }
+
+    .privacy-content {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+} 
+
+/* 语言切换器样式 */
+.language-switcher {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.lang-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-left: 10px;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+    background-color: #e0e0e0;
+    text-decoration: none;
+}
+
+.lang-btn.active {
+    background-color: #2196f3;
+    color: white;
+}
+
+/* 响应式设计中添加 */
+@media (max-width: 768px) {
+    .language-switcher {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+} 
